@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Aahana Mehta",
+    "position": "Founder & CEO",
+    "phone": "+91 98765 43210",
+    "image": "https://i.pravatar.cc/300?img=47"
+  },
+  {
+    "name": "Rohan Verma",
+    "position": "Co-Founder & COO",
+    "phone": "+91 98123 45678",
+    "image": "https://i.pravatar.cc/300?img=12"
+  },
+  {
+    "name": "Sneha Kulkarni",
+    "position": "Head of R&D",
+    "phone": "+91 99887 66554",
+    "image": "https://i.pravatar.cc/300?img=32"
+  },
+  {
+    "name": "Arjun Nair",
+    "position": "Operations Lead",
+    "phone": "+91 97654 32109",
+    "image": "https://i.pravatar.cc/300?img=51"
+  }
+]

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KeratiX — Smooth by nature. Strong by design.</title>
+<meta name="description" content="KeratiX transforms human hair waste into high-value keratin biomaterials through a zero-discharge circular economy model.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- decorative strand canvas that threads through the whole page -->
+<div class="strand-field" aria-hidden="true">
+  <svg class="strand-bg" viewBox="0 0 100 100" preserveAspectRatio="none">
+    <path class="strand-bg__path" d="M -10,8 C 20,2 25,18 45,12 C 65,6 70,22 95,14" />
+  </svg>
+</div>
+
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="#top" class="nav__logo" aria-label="KeratiX home">
+      <svg class="nav__mark" width="30" height="30" viewBox="0 0 30 30" fill="none" aria-hidden="true">
+        <path d="M6 24C6 24 7 13 12 8C15 5 18 7 16 11C14 15 9 16 9 16" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+        <path d="M13 25C13 25 16 16 21 10C24 6.5 26.5 8.5 24.5 12.5C22.5 16.5 18 17.5 18 17.5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" opacity="0.7"/>
+      </svg>
+      <span>Kerati<em>X</em></span>
+    </a>
+
+    <nav class="nav__links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#solution">Procedure</a>
+      <a href="#team">Our Team</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="nav__actions">
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark mode" aria-pressed="false">
+        <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="4.5" stroke="currentColor" stroke-width="2"/><path d="M12 2.5v3M12 18.5v3M3.8 3.8l2.1 2.1M18.1 18.1l2.1 2.1M2.5 12h3M18.5 12h3M3.8 20.2l2.1-2.1M18.1 5.9l2.1-2.1" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4 7 7 0 0 0 20 14.5Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+      </button>
+      <button class="nav__burger" id="navBurger" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero__strands" aria-hidden="true">
+      <svg class="hstrand hstrand--1" viewBox="0 0 60 160" width="60" height="160"><path d="M30 4C14 30 50 46 26 76C6 100 44 118 22 156" stroke="var(--accent)" stroke-width="6" stroke-linecap="round" fill="none"/></svg>
+      <svg class="hstrand hstrand--2" viewBox="0 0 60 160" width="46" height="130"><path d="M30 4C46 30 10 46 34 76C54 100 16 118 38 156" stroke="var(--primary)" stroke-width="5" stroke-linecap="round" fill="none"/></svg>
+      <svg class="hstrand hstrand--3" viewBox="0 0 60 160" width="38" height="110"><path d="M30 4C14 30 50 46 26 76C6 100 44 118 22 156" stroke="var(--accent-soft)" stroke-width="5" stroke-linecap="round" fill="none"/></svg>
+      <svg class="hstrand hstrand--4" viewBox="0 0 60 160" width="42" height="120"><path d="M30 4C46 30 10 46 34 76C54 100 16 118 38 156" stroke="var(--primary-light)" stroke-width="5" stroke-linecap="round" fill="none"/></svg>
+    </div>
+
+    <div class="hero__inner">
+      <p class="eyebrow">Circular keratin biomaterials</p>
+      <h1 class="hero__title">Smooth by nature.<br>Strong by <span class="accent-text">design.</span></h1>
+      <p class="hero__lede">KeratiX turns India's discarded hair — salon clippings, temple offerings, everyday waste — into pure, research-grade keratin protein. One zero-discharge process. No landfill. No leakage.</p>
+
+      <div class="hero__cta">
+        <a href="#solution" class="btn btn--primary">See the process</a>
+        <a href="#contact" class="btn btn--ghost">Talk to us</a>
+      </div>
+
+      <ul class="hero__badges">
+        <li>Sustainable</li>
+        <li>Zero Waste</li>
+        <li>Eco-Friendly</li>
+        <li>Job Creation</li>
+      </ul>
+    </div>
+    <div class="scroll-cue" aria-hidden="true"><span></span></div>
+  </section>
+
+  
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="section-inner about__grid">
+      <div class="about__copy reveal">
+        <p class="eyebrow">About KeratiX</p>
+        <h2 class="h2">A protein worth more than we throw away</h2>
+        <p class="p-lead">Human hair is one of the densest natural sources of keratin on earth — and India alone generates tons of it daily with nowhere structured to go. KeratiX collects that waste and runs it through an eco-friendly extraction process with zero harmful discharge, turning it into a 100% natural, high-protein biomaterial.</p>
+        <ul class="check-list">
+          <li>100% natural — zero harmful chemicals</li>
+          <li>High-protein bio source, pure keratin</li>
+          <li>Sustainable, circular-economy certified process</li>
+          <li>Research and industry grade purity</li>
+        </ul>
+      </div>
+
+      <div class="about__visual reveal">
+        <div class="jar">
+          <svg viewBox="0 0 220 280" width="220" height="280" aria-hidden="true">
+            <ellipse cx="110" cy="266" rx="62" ry="10" fill="var(--shadow-soft)"/>
+            <rect x="58" y="60" width="104" height="184" rx="22" fill="var(--jar-body)"/>
+            <rect x="58" y="60" width="104" height="184" rx="22" fill="none" stroke="var(--jar-edge)" stroke-width="2"/>
+            <rect x="74" y="96" width="72" height="92" rx="6" fill="var(--bg)"/>
+            <text x="110" y="130" text-anchor="middle" class="jar__brand">KERATIX</text>
+            <text x="110" y="148" text-anchor="middle" class="jar__sub">Keratin Powder</text>
+            <line x1="84" y1="158" x2="136" y2="158" stroke="var(--jar-edge)" stroke-width="1.4"/>
+            <text x="110" y="174" text-anchor="middle" class="jar__sub jar__sub--small">A grade keratin</text>
+            <rect x="50" y="34" width="120" height="30" rx="10" fill="var(--jar-lid)"/>
+            <rect x="50" y="34" width="120" height="14" rx="7" fill="var(--jar-lid-top)"/>
+            <g class="jar__powder">
+              <circle cx="40" cy="225" r="3" fill="var(--accent)"/>
+              <circle cx="186" cy="200" r="2.4" fill="var(--accent)"/>
+              <circle cx="196" cy="240" r="3.2" fill="var(--accent)"/>
+              <circle cx="30" cy="190" r="2.2" fill="var(--accent)"/>
+            </g>
+          </svg>
+        </div>
+        <div class="stat-strip">
+          <div><strong>100%</strong><span>Natural</span></div>
+          <div><strong>0</strong><span>Harmful discharge</span></div>
+          <div><strong>Grade A</strong><span>Purity</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOLUTION / GOAL -->
+  <section class="solution" id="solution">
+    <div class="section-inner">
+      <p class="eyebrow">The solution</p>
+      <h2 class="h2">Waste in, value out</h2>
+      <p class="p-lead">One continuous process turns scattered, discarded hair into a clean biomaterial — and into local jobs along the way.</p>
+
+      <div class="steps">
+        <svg class="steps__strand" viewBox="0 0 20 600" preserveAspectRatio="none" aria-hidden="true">
+          <path class="steps__strand-path" d="M10 10 C 16 90, 4 150, 10 230 C 16 310, 4 370, 10 450 C 14 510, 8 550, 10 590" />
+        </svg>
+
+        <article class="step reveal">
+          <div class="step__icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M4 7h16M7 7l-1 13a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2l-1-13M9 7V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v3" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="step__body">
+            <span class="step__tag">01 — Collect</span>
+            <h3>Collects hair waste</h3>
+            <p>Sourced from salons, Houses and communities across India through a dedicated collection network.</p>
+          </div>
+        </article>
+
+        <article class="step reveal">
+          <div class="step__icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M9 3h6M10 3v6.2L4.6 18a2 2 0 0 0 1.7 3h11.4a2 2 0 0 0 1.7-3L14 9.2V3" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="step__body">
+            <span class="step__tag">02 — Extract</span>
+            <h3>Eco-friendly extraction</h3>
+            <p>Zero harmful discharge — a clean  chemical process that isolates pure keratin protein safely.</p>
+          </div>
+        </article>
+
+        <article class="step reveal">
+          <div class="step__icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M4 12a8 8 0 0 1 13.6-5.7M20 12a8 8 0 0 1-13.6 5.7M14 3l3.6 3.3L14 9M10 21l-3.6-3.3L10 15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="step__body">
+            <span class="step__tag">03 — Circulate</span>
+            <h3>Circular economy model</h3>
+            <p>Sustainable, value-added biomaterial production designed to scale with demand.</p>
+          </div>
+        </article>
+
+        <article class="step reveal">
+          <div class="step__icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><circle cx="9" cy="8" r="3" stroke="currentColor" stroke-width="1.8"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6M16 8a3 3 0 1 0 0-6M22 20c0-2.8-2-5.2-4.7-5.8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+          </div>
+          <div class="step__body">
+            <span class="step__tag">04 — Employ</span>
+            <h3>Creates green jobs</h3>
+            <p>Local communities are employed across collection, processing and research — driving social impact.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="promise reveal">
+        <h3 class="promise__title">Our impact & promise</h3>
+        <div class="promise-grid">
+          <div class="promise-card"><strong>Environmental protection</strong><span>Zero harmful discharge, reduced landfill waste, cleaner ecosystems.</span></div>
+          <div class="promise-card"><strong>Green job creation</strong><span>Employing collectors, processors and scientists across India.</span></div>
+          <div class="promise-card"><strong>Sustainable future</strong><span>A circular model that scales with growing global demand.</span></div>
+          <div class="promise-card"><strong>Stronger communities</strong><span>Generating local economic value from everyday waste streams.</span></div>
+        </div>
+      </div>
+
+      <div class="markets reveal">
+        <span class="markets__label">Where keratin goes</span>
+        <div class="markets__tags">
+          <span>Cosmetics</span><span>Pharma</span><span>Research labs</span><span>Biomaterials</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OUR TEAM -->
+  <section class="team" id="team">
+    <div class="section-inner">
+      <p class="eyebrow">Our Team</p>
+      <h2 class="h2">Persons Behind Keratix</h2>
+      <p class="p-lead">The people collecting, extracting and scaling the circular keratin economy.</p>
+
+      <div class="team-grid reveal" id="teamGrid">
+        <p class="team-grid__loading">Loading team…</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="section-inner contact__grid">
+      <div class="contact__copy reveal">
+        <p class="eyebrow">Get in touch</p>
+        <h2 class="h2">Let's scale the circular future, together</h2>
+        <p class="p-lead">Cosmetic brand, research lab, or just curious about the process — we'd like to hear from you.</p>
+        <div class="contact__info">
+          <a href="mailto:info@keratix.in">info@keratix.in</a>
+          <a href="https://keratix.in" target="_blank" rel="noopener">keratix.in</a>
+        </div>
+        <p class="tagline">Waste in → Value out → A better world.</p>
+      </div>
+
+      <form class="contact__form reveal" id="contactForm" novalidate>
+        <div class="field">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required>
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required>
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" placeholder="Tell us what you're working on" required></textarea>
+        </div>
+        <button type="submit" class="btn btn--primary btn--block">Send message</button>
+        <p class="form__status" id="formStatus" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="section-inner footer__inner">
+    <span class="footer__brand">Kerati<em>X</em></span>
+    <span class="footer__tagline">Smooth by nature. Strong by design.</span>
+    <span class="footer__copy">© 2026 Keratix</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
